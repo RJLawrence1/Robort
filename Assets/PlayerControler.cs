@@ -15,6 +15,7 @@ public class PlayerControler : MonoBehaviour
             if (health <= 0)
             { 
                 Debug.Log("Game Over!");
+                // Reset or reload scene
             }
         }
     }
